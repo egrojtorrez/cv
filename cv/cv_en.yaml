@@ -8,67 +8,66 @@ cv:
       username: egrojtorrez
     - network: GitHub
       username: egrojtorrez
+  sections:
+    summary:
+      - >
+        Full-stack Software Engineer with experience building web applications using
+        React, TypeScript, Node.js, and PostgreSQL. Strong background in REST API design,
+        database modeling, and containerized environments. Passionate about clean code,
+        scalable architectures, and continuous learning.
 
-sections:
-  summary:
-    - >
-      Full-stack Software Engineer with experience building web applications using
-      React, TypeScript, Node.js, and PostgreSQL. Strong background in REST API design,
-      database modeling, and containerized environments. Passionate about clean code,
-      scalable architectures, and continuous learning.
+    experience:
+      - company: ArkusNexus / Drata
+        position: Associate Software Engineer
+        start_date: 2025-02
+        end_date: present
+        location: Tijuana, Mexico
+        highlights:
+          - Developed and maintained full-stack web applications using React and Node.js
+          - Designed RESTful APIs and integrated third-party services
+          - Worked with relational databases (PostgreSQL) and SQL queries
+          - Collaborated with cross-functional teams following agile methodologies
 
-  experience:
-    - company: ArkusNexus / Drata
-      position: Associate Software Engineer
-      start_date: 2025-02
-      end_date: present
-      location: Tijuana, Mexico
-      highlights:
-        - Developed and maintained full-stack web applications using React and Node.js
-        - Designed RESTful APIs and integrated third-party services
-        - Worked with relational databases (PostgreSQL) and SQL queries
-        - Collaborated with cross-functional teams following agile methodologies
+      - company: Sushimi
+        position: Systems Assistant
+        start_date: 2022-07
+        end_date: 2023-07
+        location: Baja California, Mexico
+        highlights:
+          - Provided technical support and system maintenance
+          - Assisted with internal tools and software configuration
 
-    - company: Sushimi
-      position: Systems Assistant
-      start_date: 2022-07
-      end_date: 2023-07
-      location: Baja California, Mexico
-      highlights:
-        - Provided technical support and system maintenance
-        - Assisted with internal tools and software configuration
+    projects:
+      - name: CimParkea
+        summary: Parking availability monitoring system using real-time cameras
+        highlights:
+          - Implemented backend services with Node.js and PostgreSQL
+          - Used OpenCV and cloud storage for image processing
+          - Built frontend interfaces with React and TypeScript
 
-  projects:
-    - name: CimParkea
-      summary: Parking availability monitoring system using real-time cameras
-      highlights:
-        - Implemented backend services with Node.js and PostgreSQL
-        - Used OpenCV and cloud storage for image processing
-        - Built frontend interfaces with React and TypeScript
+      - name: Hospital Appointment Management System
+        summary: Web application for scheduling medical appointments
+        highlights:
+          - Designed relational and NoSQL database schemas
+          - Implemented authentication, notifications, and scheduling logic
+          - Integrated Stripe payments (later removed per requirements)
 
-    - name: Hospital Appointment Management System
-      summary: Web application for scheduling medical appointments
-      highlights:
-        - Designed relational and NoSQL database schemas
-        - Implemented authentication, notifications, and scheduling logic
-        - Integrated Stripe payments (later removed per requirements)
+    education:
+      - institution: Universidad Autónoma de Baja California (UABC)
+        area: Software Engineering
+        degree: Bachelor’s Degree
+        start_date: 2019-08
+        end_date: 2024-12
+        location: Baja California, Mexico
 
-  education:
-    - institution: Universidad Autónoma de Baja California (UABC)
-      area: Software Engineering
-      degree: Bachelor’s Degree
-      start_date: 2019-08
-      end_date: 2024-12
-      location: Baja California, Mexico
-
-  skills:
-    - label: Languages
-      details: TypeScript, JavaScript, SQL
-    - label: Frontend
-      details: React, Vite, HTML, CSS
-    - label: Backend
-      details: Node.js, Express, NestJS
-    - label: Databases
-      details: PostgreSQL, NoSQL
-    - label: Tools
-      details: Git, Docker, Linux, REST APIs
+    skills:
+      - label: Languages
+        details: TypeScript, JavaScript, SQL
+      - label: Frontend
+        details: React, Vite, HTML, CSS
+      - label: Backend
+        details: Node.js, Express, NestJS
+      - label: Databases
+        details: PostgreSQL, NoSQL
+      - label: Tools
+        details: Git, Docker, Linux, REST APIs

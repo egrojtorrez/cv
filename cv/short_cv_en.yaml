@@ -3,22 +3,19 @@ cv:
   location: Tijuana, Mexico
   email: egrojtorrez@gmail.com
   website: https://github.com/egrojtorrez
-
-sections:
-  summary:
-    - >
-      Full-stack Software Engineer experienced in React, Node.js, TypeScript, and PostgreSQL.
-      Focused on building scalable web applications and clean APIs.
-
-  experience:
-    - company: ArkusNexus / Drata
-      position: Associate Software Engineer
-      start_date: 2025-02
-      end_date: present
-      highlights:
-        - Full-stack development with React and Node.js
-        - REST API design and database integration
-
-  skills:
-    - label: Tech Stack
-      details: React, TypeScript, Node.js, PostgreSQL, Docker, Git
+  sections:
+    summary:
+      - >
+        Full-stack Software Engineer experienced in React, Node.js, TypeScript, and PostgreSQL.
+        Focused on building scalable web applications and clean APIs.
+    experience:
+      - company: ArkusNexus / Drata
+        position: Associate Software Engineer
+        start_date: 2025-02
+        end_date: present
+        highlights:
+          - Full-stack development with React and Node.js
+          - REST API design and database integration
+    skills:
+      - label: Tech Stack
+        details: React, TypeScript, Node.js, PostgreSQL, Docker, Git
