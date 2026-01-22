@@ -23,7 +23,7 @@ jobs:
 
       - name: Install RenderCV
         run: |
-          pip install rendercv
+          pip install "rendercv[full]"
 
       - name: Generate PDFs
         run: |
