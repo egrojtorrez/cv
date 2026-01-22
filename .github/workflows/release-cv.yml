@@ -30,6 +30,8 @@ jobs:
           mkdir -p dist
           rendercv render cv/cv_en.yaml -d designs/engineeringresumes.yaml -lc locales/en.yaml -pdf dist/Jorge_Torres_CV_EN.pdf
           rendercv render cv/cv_es.yaml -d designs/engineeringresumes.yaml -lc locales/es.yaml -pdf dist/Jorge_Torres_CV_ES.pdf
+          rendercv render cv/short_cv_en.yaml -d designs/engineeringresumes.yaml -lc locales/en.yaml -pdf dist/Jorge_Torres_Short_CV_EN.pdf
+          rendercv render cv/short_cv_es.yaml -d designs/engineeringresumes.yaml -lc locales/es.yaml -pdf dist/Jorge_Torres_Short_CV_ES.pdf
 
       - name: Generate version tag
         id: version
