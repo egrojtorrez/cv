@@ -1,0 +1,49 @@
+name: Build & Release CV
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write   # necesario para crear releases
+
+jobs:
+  release-cv:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install RenderCV
+        run: |
+          pip install rendercv
+
+      - name: Generate PDFs
+        run: |
+          mkdir -p dist
+          rendercv render cv_en.yaml --output dist/Jorge_Torres_CV_EN.pdf
+          rendercv render cv_es.yaml --output dist/Jorge_Torres_CV_ES.pdf
+
+      - name: Generate version tag
+        id: version
+        run: |
+          echo "tag=cv-$(date +'%Y.%m.%d-%H%M')" >> $GITHUB_OUTPUT
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.version.outputs.tag }}
+          name: CV ${{ steps.version.outputs.tag }}
+          body: |
+            📄 Automated CV build using RenderCV
+            - English & Spanish versions
+            - Generated on push to main
+          files: |
+            dist/*.pdf
