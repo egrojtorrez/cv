@@ -6,27 +6,39 @@ cv:
   social_networks:
     - network: LinkedIn
       username: egrojtorrez
-    - network: GitHub
-      username: egrojtorrez
   sections:
     summary:
       - >
-        Full-stack Software Engineer with experience building web applications using
-        React, TypeScript, Node.js, and PostgreSQL. Strong background in REST API design,
-        database modeling, and containerized environments. Passionate about clean code,
-        scalable architectures, and continuous learning.
+        Full-stack Software Engineer with experience in developing modern web
+        applications. I have worked on projects using TypeScript on both frontend
+        and backend, with a focus on REST APIs, relational databases, and solid
+        architectural best practices. I am interested in building scalable,
+        maintainable, and well-structured solutions.
 
     experience:
-      - company: ArkusNexus / Drata
+      - company: Drata (by ArkusNexus)
+        position: Associate Software Engineer
+        start_date: 2025-06
+        end_date: present
+        location: Tijuana, Mexico
+        highlights:
+          - Development of web applications with React and state management using MobX
+          - Implementation of backend services with NestJS
+          - Integration and management of MySQL databases
+          - Collaboration with multidisciplinary teams under agile methodologies
+
+
+      - company: ArkusNexus
         position: Associate Software Engineer
         start_date: 2025-02
         end_date: present
         location: Tijuana, Mexico
         highlights:
-          - Developed and maintained full-stack web applications using React and Node.js
-          - Designed RESTful APIs and integrated third-party services
-          - Worked with relational databases (PostgreSQL) and SQL queries
-          - Collaborated with cross-functional teams following agile methodologies
+          - Development of full-stack applications using Fastify and TypeScript
+          - Implementation of REST APIs with PostgreSQL and TypeORM
+          - Development of web interfaces with Next.js
+          - Participation in architecture design and database modeling
+
 
       - company: Sushimi
         position: Systems Assistant
@@ -34,40 +46,25 @@ cv:
         end_date: 2023-07
         location: Baja California, Mexico
         highlights:
-          - Provided technical support and system maintenance
-          - Assisted with internal tools and software configuration
-
-    projects:
-      - name: CimParkea
-        summary: Parking availability monitoring system using real-time cameras
-        highlights:
-          - Implemented backend services with Node.js and PostgreSQL
-          - Used OpenCV and cloud storage for image processing
-          - Built frontend interfaces with React and TypeScript
-
-      - name: Hospital Appointment Management System
-        summary: Web application for scheduling medical appointments
-        highlights:
-          - Designed relational and NoSQL database schemas
-          - Implemented authentication, notifications, and scheduling logic
-          - Integrated Stripe payments (later removed per requirements)
+          - Technical support and maintenance of internal systems
+          - Development and maintenance of internal tools for managing information between branches
 
     education:
-      - institution: Universidad Autónoma de Baja California (UABC)
+      - institution: Autonomous University of Baja California (UABC)
         area: Software Engineering
-        degree: Bachelor’s Degree
+        degree: Bachelor's Degree
         start_date: 2019-08
         end_date: 2024-12
         location: Baja California, Mexico
 
     skills:
       - label: Languages
-        details: TypeScript, JavaScript, SQL
+        details: TypeScript, JavaScript, SQL, Python
       - label: Frontend
-        details: React, Vite, HTML, CSS
+        details: React, Next.js, HTML, CSS
       - label: Backend
-        details: Node.js, Express, NestJS
+        details: Node.js, Fastify, NestJS
       - label: Databases
-        details: PostgreSQL, NoSQL
+        details: PostgreSQL, MySQL, MongoDB
       - label: Tools
         details: Git, Docker, Linux, REST APIs

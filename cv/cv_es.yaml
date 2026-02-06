@@ -6,41 +6,49 @@ cv:
   social_networks:
     - network: LinkedIn
       username: egrojtorrez
-    - network: GitHub
-      username: egrojtorrez
   sections:
     resumen:
       - >
         Ingeniero de Software Full-stack con experiencia en el desarrollo de aplicaciones web
-        utilizando React, TypeScript, Node.js y PostgreSQL. Experiencia en diseño de APIs REST,
-        modelado de bases de datos y entornos contenerizados. Enfocado en código limpio,
-        arquitecturas escalables y aprendizaje continuo.
+        modernas. He trabajado en proyectos utilizando TypeScript tanto en frontend como en
+        backend, con enfoque en APIs REST, bases de datos relacionales y buenas prácticas de
+        arquitectura. Me interesa construir soluciones escalables, mantenibles y bien
+        estructuradas.
+
     experiencia:
-      - company: ArkusNexus / Drata
+      - company: Drata (by ArkusNexus)
+        position: Associate Software Engineer
+        start_date: 2025-06
+        end_date: present
+        location: Tijuana, México
+        highlights:
+          - Desarrollo de aplicaciones web con React y manejo de estado con MobX
+          - Implementación de servicios backend con NestJS
+          - Integración y manejo de bases de datos MySQL
+          - Trabajo en conjunto con equipos multidisciplinarios bajo metodologías ágiles
+
+
+      - company: ArkusNexus
         position: Associate Software Engineer
         start_date: 2025-02
         end_date: present
         location: Tijuana, México
         highlights:
-          - Desarrollo y mantenimiento de aplicaciones full-stack con React y Node.js
-          - Diseño e implementación de APIs REST
-          - Manejo de bases de datos relacionales (PostgreSQL)
-          - Trabajo colaborativo bajo metodologías ágiles
+          - Desarrollo de aplicaciones full-stack utilizando Fastify y TypeScript
+          - Implementación de APIs REST con PostgreSQL y TypeORM
+          - Desarrollo de interfaces web con Next.js
+          - Participación en el diseño de arquitectura y modelado de base de datos
+
+
       - company: Sushimi
         position: Auxiliar de Sistemas
         start_date: 2022-07
         end_date: 2023-07
         location: Baja California, México
         highlights:
-          - Soporte técnico y mantenimiento de sistemas
-          - Apoyo en herramientas internas de software
-    proyectos:
-      - name: CimParkea
-        summary: Sistema de monitoreo de disponibilidad de estacionamientos
-        highlights:
-          - Backend con Node.js y PostgreSQL
-          - Procesamiento de imágenes con OpenCV
-          - Frontend con React y TypeScript
+          - Soporte técnico y mantenimiento de sistemas internos
+          - Desarrollo y mantenimiento de herramientas internas para la gestion de información entre sucursales
+
     educación:
       - institution: Universidad Autónoma de Baja California (UABC)
         area: Ingeniería en Software
@@ -48,14 +56,15 @@ cv:
         start_date: 2019-08
         end_date: 2024-12
         location: Baja California, México
+
     habilidades:
       - label: Lenguajes
-        details: TypeScript, JavaScript, SQL
+        details: TypeScript, JavaScript, SQL, Python
       - label: Frontend
-        details: React, HTML, CSS
+        details: React, Next.js, HTML, CSS
       - label: Backend
-        details: Node.js, Express, NestJS
+        details: Node.js, Fastify, NestJS
       - label: Bases de Datos
-        details: PostgreSQL, NoSQL
+        details: PostgreSQL, MySQL, MongoDB
       - label: Herramientas
         details: Git, Docker, Linux, APIs REST
