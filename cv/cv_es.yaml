@@ -20,7 +20,7 @@ cv:
 
     experience:
       - company: Drata (by ArkusNexus)
-        position: Software Engineer
+        position: Associate Software Engineer
         start_date: 2025-06
         end_date: present
         location: Tijuana, México
@@ -39,8 +39,9 @@ cv:
         highlights:
           - Desarrollo de una plataforma interna de gamificación full-stack utilizando Next.js, Fastify, TypeScript y PostgreSQL
           - Implementación de APIs REST y modelos de datos usando TypeORM y PostgreSQL
-          - Desempeño como líder técnico de un equipo de desarrolladores junior, brindando guía técnica, revisiones de código y acompañamiento continuo
-          - Definición de la estructura del proyecto, estándares de desarrollo y buenas prácticas para el equipo
+          - Apoyo técnico y acompañamiento continuo a desarrolladores junior del equipo
+          - Participación en la definición de la estructura del proyecto, estándares de desarrollo y buenas prácticas
+          - Colaboración en revisiones de código y discusiones técnicas para asegurar la calidad y consistencia del software
           - Entrega exitosa del proyecto, lo que confirmó una posición de tiempo completo y permitió la asignación posterior al proyecto de Drata
 
       - company: Sushimi
