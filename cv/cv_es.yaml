@@ -22,7 +22,7 @@ cv:
       - company: Drata (by ArkusNexus)
         position: Software Engineer
         start_date: 2025-06
-        end_date: presente
+        end_date: present
         location: Tijuana, México
         highlights:
           - Participación en la migración del producto principal desde un código legado en React hacia una nueva arquitectura rebrandeada utilizando React y MobX
@@ -34,7 +34,7 @@ cv:
       - company: ArkusNexus
         position: Associate Software Engineer
         start_date: 2025-02
-        end_date: 2025-06
+        end_date: present
         location: Tijuana, México
         highlights:
           - Desarrollo de una plataforma interna de gamificación full-stack utilizando Next.js, Fastify, TypeScript y PostgreSQL

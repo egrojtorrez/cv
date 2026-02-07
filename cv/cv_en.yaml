@@ -33,7 +33,7 @@ cv:
       - company: ArkusNexus
         position: Associate Software Engineer
         start_date: 2025-02
-        end_date: 2025-06
+        end_date: present
         location: Tijuana, Mexico
         highlights:
           - Developed a full-stack internal gamification platform using Next.js, Fastify, TypeScript, and PostgreSQL
