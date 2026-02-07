@@ -6,14 +6,16 @@ cv:
   social_networks:
     - network: LinkedIn
       username: egrojtorrez
+
   sections:
     summary:
       - >
-        Full-stack Software Engineer with experience in developing modern web
-        applications. I have worked on projects using TypeScript on both frontend
-        and backend, with a focus on REST APIs, relational databases, and solid
-        architectural best practices. I am interested in building scalable,
-        maintainable, and well-structured solutions.
+        Software Engineer with solid experience building and evolving
+        production-ready web applications using TypeScript, React, and Node.js.
+        Proven ability to work on large-scale frontend migrations, backend APIs,
+        and cross-team collaboration with product and design. Comfortable taking
+        technical ownership, mentoring junior developers, and contributing to
+        architectural and UI decisions in agile environments.
 
     experience:
       - company: Drata (by ArkusNexus)
@@ -22,23 +24,23 @@ cv:
         end_date: present
         location: Tijuana, Mexico
         highlights:
-          - Development of web applications with React and state management using MobX
-          - Implementation of backend services with NestJS
-          - Integration and management of MySQL databases
-          - Collaboration with multidisciplinary teams under agile methodologies
-
+          - Contributed to the migration of the main product from a legacy React codebase to a new rebranded architecture using React and MobX
+          - Migrated and refactored multiple application pages following best practices, cleaner code standards, and an updated UI system
+          - Identified and fixed bugs within the shared component system during the migration process
+          - Collaborated closely with Product and Design teams to clarify requirements and discuss unclear or evolving design decisions
+          - Worked within an agile, cross-functional team focused on improving maintainability, scalability, and user experience
 
       - company: ArkusNexus
         position: Associate Software Engineer
         start_date: 2025-02
-        end_date: present
+        end_date: 2025-06
         location: Tijuana, Mexico
         highlights:
-          - Development of full-stack applications using Fastify and TypeScript
-          - Implementation of REST APIs with PostgreSQL and TypeORM
-          - Development of web interfaces with Next.js
-          - Participation in architecture design and database modeling
-
+          - Developed a full-stack internal gamification platform using Next.js, Fastify, TypeScript, and PostgreSQL
+          - Implemented REST APIs and data models using TypeORM and PostgreSQL
+          - Acted as technical lead for a team of junior developers, providing guidance, code reviews, and technical direction
+          - Helped define project structure, development standards, and best practices for the team
+          - Successfully delivered the project, which confirmed a full-time position and led to participation in the Drata project
 
       - company: Sushimi
         position: IT Systems Associate
@@ -46,11 +48,11 @@ cv:
         end_date: 2023-07
         location: Baja California, Mexico
         highlights:
-          - Development and maintenance of internal web applications and tools used across multiple branches
-          - Design and implementation of features and reports by integrating SQL Server databases from Soft Restaurant
-          - Development of backend services using Node.js and SQL Server
-          - Frontend development using EJS and React for internal and customer-facing applications
-          - Maintenance and improvement of the company's online store and internal systems
+          - Developed and maintained internal web applications used across multiple restaurant branches
+          - Designed and implemented features and reports by integrating SQL Server databases from the Soft Restaurant POS system
+          - Built backend services using Node.js and SQL Server to support internal operations
+          - Developed both internal tools and customer-facing applications using EJS and React
+          - Maintained and improved the company’s online store and internal systems
 
     education:
       - institution: Autonomous University of Baja California (UABC)
@@ -66,8 +68,8 @@ cv:
       - label: Frontend
         details: React, Next.js, HTML, CSS
       - label: Backend
-        details: Node.js, Fastify, NestJS
-      - label: Databases
-        details: PostgreSQL, MySQL, MongoDB
-      - label: Tools
-        details: Git, Docker, Linux, REST APIs
+        details: Node.js, NestJS, Fastify
+      - label: Databases & ORM
+        details: PostgreSQL, MySQL, MongoDB, TypeORM
+      - label: Tools & Practices
+        details: Git, Docker, Linux, REST APIs, Agile

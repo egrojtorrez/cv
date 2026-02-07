@@ -6,68 +6,71 @@ cv:
   social_networks:
     - network: LinkedIn
       username: egrojtorrez
-  sections:
-    resumen:
-      - >
-        Ingeniero de Software Full-stack con experiencia en el desarrollo de aplicaciones web
-        modernas. He trabajado en proyectos utilizando TypeScript tanto en frontend como en
-        backend, con enfoque en APIs REST, bases de datos relacionales y buenas prácticas de
-        arquitectura. Me interesa construir soluciones escalables, mantenibles y bien
-        estructuradas.
 
-    experiencia:
+  sections:
+    summary:
+      - >
+        Ingeniero en Software con experiencia sólida en el
+        desarrollo y evolución de aplicaciones web en producción utilizando
+        TypeScript, React y Node.js. Experiencia comprobada en migraciones de
+        frontend a gran escala, desarrollo de APIs backend y colaboración
+        cercana con equipos de producto y diseño. Cómodo asumiendo
+        responsabilidad técnica, mentoría de desarrolladores junior y
+        participación en decisiones de arquitectura y UI dentro de entornos ágiles.
+
+    experience:
       - company: Drata (by ArkusNexus)
-        position: Associate Software Engineer
+        position: Software Engineer
         start_date: 2025-06
-        end_date: present
+        end_date: presente
         location: Tijuana, México
         highlights:
-          - Desarrollo de aplicaciones web con React y manejo de estado con MobX
-          - Implementación de servicios backend con NestJS
-          - Integración y manejo de bases de datos MySQL
-          - Trabajo en conjunto con equipos multidisciplinarios bajo metodologías ágiles
-
+          - Participación en la migración del producto principal desde un código legado en React hacia una nueva arquitectura rebrandeada utilizando React y MobX
+          - Migración y refactorización de múltiples páginas siguiendo mejores prácticas, estándares de código más limpios y una nueva interfaz de usuario
+          - Identificación y resolución de bugs dentro del sistema de componentes compartidos durante el proceso de migración
+          - Colaboración directa con los equipos de Producto y Diseño para aclarar requerimientos y discutir decisiones de diseño poco definidas
+          - Trabajo en un equipo ágil y multidisciplinario enfocado en mejorar la mantenibilidad, escalabilidad y experiencia de usuario del producto
 
       - company: ArkusNexus
         position: Associate Software Engineer
         start_date: 2025-02
-        end_date: present
+        end_date: 2025-06
         location: Tijuana, México
         highlights:
-          - Desarrollo de aplicaciones full-stack utilizando Fastify y TypeScript
-          - Implementación de APIs REST con PostgreSQL y TypeORM
-          - Desarrollo de interfaces web con Next.js
-          - Participación en el diseño de arquitectura y modelado de base de datos
-
+          - Desarrollo de una plataforma interna de gamificación full-stack utilizando Next.js, Fastify, TypeScript y PostgreSQL
+          - Implementación de APIs REST y modelos de datos usando TypeORM y PostgreSQL
+          - Desempeño como líder técnico de un equipo de desarrolladores junior, brindando guía técnica, revisiones de código y acompañamiento continuo
+          - Definición de la estructura del proyecto, estándares de desarrollo y buenas prácticas para el equipo
+          - Entrega exitosa del proyecto, lo que confirmó una posición de tiempo completo y permitió la asignación posterior al proyecto de Drata
 
       - company: Sushimi
-        position: Auxiliar de Sistemas
+        position: IT Systems Associate
         start_date: 2022-07
         end_date: 2023-07
         location: Baja California, México
         highlights:
-          - Desarrollo y mantenimiento de aplicaciones y herramientas internas utilizadas en múltiples sucursales
-          - Diseño e implementación de nuevas funcionalidades y reportes mediante la integración de bases de datos SQL Server de Soft Restaurant
-          - Desarrollo de servicios backend utilizando Node.js y SQL Server
-          - Desarrollo frontend con EJS y React para aplicaciones internas y de cara al cliente
-          - Mantenimiento y mejora continua de la tienda en línea y sistemas internos de la empresa
+          - Desarrollo y mantenimiento de aplicaciones web internas utilizadas en múltiples sucursales del restaurante
+          - Diseño e implementación de funcionalidades y reportes integrando bases de datos SQL Server del sistema POS Soft Restaurant
+          - Desarrollo de servicios backend utilizando Node.js y SQL Server para soportar operaciones internas
+          - Desarrollo de herramientas internas y aplicaciones orientadas al cliente utilizando EJS y React
+          - Mantenimiento y mejora de la tienda en línea y de los sistemas internos de la empresa
 
-    educación:
+    education:
       - institution: Universidad Autónoma de Baja California (UABC)
-        area: Ingeniería en Software
+        area: Ingeniería de Software
         degree: Licenciatura
         start_date: 2019-08
         end_date: 2024-12
         location: Baja California, México
 
-    habilidades:
+    skills:
       - label: Lenguajes
         details: TypeScript, JavaScript, SQL, Python
       - label: Frontend
         details: React, Next.js, HTML, CSS
       - label: Backend
-        details: Node.js, Fastify, NestJS
-      - label: Bases de Datos
-        details: PostgreSQL, MySQL, MongoDB
-      - label: Herramientas
-        details: Git, Docker, Linux, APIs REST
+        details: Node.js, NestJS, Fastify
+      - label: Bases de Datos y ORM
+        details: PostgreSQL, MySQL, MongoDB, TypeORM
+      - label: Herramientas y Prácticas
+        details: Git, Docker, Linux, APIs REST, Metodologías Ágiles, Clean Architecture
