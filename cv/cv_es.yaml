@@ -46,8 +46,11 @@ cv:
         end_date: 2023-07
         location: Baja California, México
         highlights:
-          - Soporte técnico y mantenimiento de sistemas internos
-          - Desarrollo y mantenimiento de herramientas internas para la gestion de información entre sucursales
+          - Desarrollo y mantenimiento de aplicaciones y herramientas internas utilizadas en múltiples sucursales
+          - Diseño e implementación de nuevas funcionalidades y reportes mediante la integración de bases de datos SQL Server de Soft Restaurant
+          - Desarrollo de servicios backend utilizando Node.js y SQL Server
+          - Desarrollo frontend con EJS y React para aplicaciones internas y de cara al cliente
+          - Mantenimiento y mejora continua de la tienda en línea y sistemas internos de la empresa
 
     educación:
       - institution: Universidad Autónoma de Baja California (UABC)

@@ -41,13 +41,16 @@ cv:
 
 
       - company: Sushimi
-        position: Systems Assistant
+        position: IT Systems Associate
         start_date: 2022-07
         end_date: 2023-07
         location: Baja California, Mexico
         highlights:
-          - Technical support and maintenance of internal systems
-          - Development and maintenance of internal tools for managing information between branches
+          - Development and maintenance of internal web applications and tools used across multiple branches
+          - Design and implementation of features and reports by integrating SQL Server databases from Soft Restaurant
+          - Development of backend services using Node.js and SQL Server
+          - Frontend development using EJS and React for internal and customer-facing applications
+          - Maintenance and improvement of the company's online store and internal systems
 
     education:
       - institution: Autonomous University of Baja California (UABC)
