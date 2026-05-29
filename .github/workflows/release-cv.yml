@@ -36,7 +36,7 @@ jobs:
             lang="${filename##*_}"
             
             echo "Procesando $file (Idioma: $lang)..."
-            rendercv render "$file" -d designs/engineeringresumes.yaml -lc "locales/${lang}.yaml" -pdf "dist/Jorge_Torres_${filename_upper}.pdf" 
+            rendercv render "$file" -d designs/engineeringresumes.yaml -lc "locales/${lang}.yaml" -pdf "../dist/Jorge_Torres_${filename_upper}.pdf" 
           done
 
       - name: Generate version tag
