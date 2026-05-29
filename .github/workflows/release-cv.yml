@@ -27,11 +27,17 @@ jobs:
 
       - name: Generate PDFs
         run: |
-          mkdir -p dist
-          rendercv render cv/cv_en.yaml -d designs/engineeringresumes.yaml -lc locales/en.yaml -pdf dist/Jorge_Torres_CV_EN.pdf
-          rendercv render cv/cv_es.yaml -d designs/engineeringresumes.yaml -lc locales/es.yaml -pdf dist/Jorge_Torres_CV_ES.pdf
-          rendercv render cv/short_cv_en.yaml -d designs/engineeringresumes.yaml -lc locales/en.yaml -pdf dist/Jorge_Torres_Short_CV_EN.pdf
-          rendercv render cv/short_cv_es.yaml -d designs/engineeringresumes.yaml -lc locales/es.yaml -pdf dist/Jorge_Torres_Short_CV_ES.pdf
+          # Asegurarnos de que la carpeta dist exista
+          mkdir -p dist 
+          
+          for file in cv/*.yaml; do
+            filename=$(basename "$file" .yaml)
+            filename_upper=$(echo "$filename" | tr '[:lower:]' '[:upper:]')
+            lang="${filename##*_}"
+            
+            echo "Procesando $file (Idioma: $lang)..."
+            rendercv render "$file" -d designs/engineeringresumes.yaml -lc "locales/${lang}.yaml" -pdf "dist/Jorge_Torres_${filename_upper}.pdf" 
+          done
 
       - name: Generate version tag
         id: version

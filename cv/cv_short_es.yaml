@@ -1,0 +1,24 @@
+cv:
+  name: Jorge Omar Torres Sosa
+  location: Tijuana, México
+  email: egrojtorrez@gmail.com
+  website: https://github.com/egrojtorrez
+  sections:
+    resumen:
+      - >
+        Ingeniero de Software Full-stack con experiencia en React, Node.js,
+        TypeScript, MySQL y PostgreSQL. Ha trabajado en migraciones frontend,
+        herramientas internas, automatización con Temporal y optimización de
+        procesos críticos de negocio.
+    experiencia:
+      - company: ArkusNexus / Drata
+        position: Platform Engineer
+        start_date: 2025-02
+        end_date: 2026-05
+        highlights:
+          - Desarrollo full-stack e interno con React, Node.js, TypeScript, MySQL, Temporal y Retool
+          - Optimización de borrado de cuentas de aproximadamente 3 minutos a 17 segundos en promedio
+          - Automatización diaria con Temporal y reportes de fallos mediante integración con Slack
+    habilidades:
+      - label: Stack Tecnológico
+        details: React, TypeScript, Node.js, MySQL, PostgreSQL, Temporal, Retool, Docker, Git

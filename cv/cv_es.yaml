@@ -10,39 +10,37 @@ cv:
   sections:
     summary:
       - >
-        Ingeniero en Software con experiencia sólida en el
-        desarrollo y evolución de aplicaciones web en producción utilizando
-        TypeScript, React y Node.js. Experiencia comprobada en migraciones de
-        frontend a gran escala, desarrollo de APIs backend y colaboración
-        cercana con equipos de producto y diseño. Cómodo asumiendo
-        responsabilidad técnica, mentoría de desarrolladores junior y
-        participación en decisiones de arquitectura y UI dentro de entornos ágiles.
+        Ingeniero de Software con experiencia en desarrollo frontend, backend y
+        herramientas internas. Ha trabajado con TypeScript, React, Node.js,
+        MySQL, Temporal y Retool, participando en migraciones frontend,
+        automatización de procesos y optimización de flujos críticos de negocio.
+        Cómodo trabajando a lo largo del stack, tomando responsabilidad técnica
+        y colaborando con equipos de producto, diseño y operaciones.
 
     experience:
       - company: Drata (by ArkusNexus)
-        position: Associate Software Engineer
+        position: Platform Engineer
         start_date: 2025-06
-        end_date: present
+        end_date: 2026-05
         location: Tijuana, México
         highlights:
-          - Participación en la migración del producto principal desde un código legado en React hacia una nueva arquitectura rebrandeada utilizando React y MobX
-          - Migración y refactorización de múltiples páginas siguiendo mejores prácticas, estándares de código más limpios y una nueva interfaz de usuario
-          - Identificación y resolución de bugs dentro del sistema de componentes compartidos durante el proceso de migración
-          - Colaboración directa con los equipos de Producto y Diseño para aclarar requerimientos y discutir decisiones de diseño poco definidas
-          - Trabajo en un equipo ágil y multidisciplinario enfocado en mejorar la mantenibilidad, escalabilidad y experiencia de usuario del producto
+          - Inició como Associate Software Engineer contribuyendo a la migración del producto principal desde un código legado en React hacia una nueva arquitectura utilizando React y MobX
+          - Promovido a Platform Engineer, con enfoque en herramientas internas, automatización de workflows y procesos del ciclo de vida de cuentas
+          - Optimizó el proceso de borrado de cuentas en producción, reduciendo su duración promedio de aproximadamente 3 minutos a 17 segundos mediante optimización de queries, división de transacciones y paralelización
+          - Diseñó e implementó una automatización diaria con Temporal y TypeScript para estandarizar el borrado automático de cuentas según criterios de negocio
+          - Mejoró la confiabilidad del flujo de borrado evitando ejecuciones simultáneas, procesando cuentas en serie y reportando fallos mediante una integración existente con Slack
+          - Desarrolló herramientas internas con Retool, JavaScript y SQL para el equipo de Customer Success, automatizando procesos manuales que realizaban de forma recurrente
+          - Colaboró con los equipos de Producto y Diseño para clarificar requerimientos y entregar soluciones alineadas con las necesidades del negocio
 
       - company: ArkusNexus
         position: Associate Software Engineer
         start_date: 2025-02
-        end_date: present
+        end_date: 2025-06
         location: Tijuana, México
         highlights:
           - Desarrollo de una plataforma interna de gamificación full-stack utilizando Next.js, Fastify, TypeScript y PostgreSQL
-          - Implementación de APIs REST y modelos de datos usando TypeORM y PostgreSQL
-          - Apoyo técnico y acompañamiento continuo a desarrolladores junior del equipo
-          - Participación en la definición de la estructura del proyecto, estándares de desarrollo y buenas prácticas
-          - Colaboración en revisiones de código y discusiones técnicas para asegurar la calidad y consistencia del software
-          - Entrega exitosa del proyecto, lo que confirmó una posición de tiempo completo y permitió la asignación posterior al proyecto de Drata
+          - Implementación de APIs REST y modelos de datos con TypeORM
+          - Entrega exitosa del proyecto, lo que confirmó una posición de tiempo completo y la asignación al proyecto de Drata
 
       - company: Sushimi
         position: IT Systems Associate
@@ -72,6 +70,8 @@ cv:
       - label: Backend
         details: Node.js, NestJS, Fastify
       - label: Bases de Datos y ORM
-        details: PostgreSQL, MySQL, MongoDB, TypeORM
+        details: MySQL, PostgreSQL, MongoDB, TypeORM
+      - label: Automatización y Herramientas Internas
+        details: Temporal, Retool, Slack integrations, workflow automation
       - label: Herramientas y Prácticas
-        details: Git, Docker, Linux, APIs REST, Metodologías Ágiles, Clean Architecture
+        details: Git, Docker, Linux, APIs REST, Clean Architecture, Metodologías Ágiles

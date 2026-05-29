@@ -1,16 +1,14 @@
 locale:
-  language: es
-  phone_number_format: national
-  page_numbering_template: NAME - página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: Última actualización en TODAY
-  date_template: MONTH_ABBREVIATION YEAR
+  language: spanish
+  last_updated: Última actualización
   month: mes
   months: meses
   year: año
   years: años
   present: presente
-  to: –
-  abbreviations_for_months:
+  phrases:
+    degree_with_area: DEGREE en AREA
+  month_abbreviations:
     - Ene
     - Feb
     - Mar
@@ -22,8 +20,8 @@ locale:
     - Sep
     - Oct
     - Nov
-    - Dec
-  full_names_of_months:
+    - Dic
+  month_names:
     - Enero
     - Febrero
     - Marzo

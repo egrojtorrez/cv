@@ -10,37 +10,37 @@ cv:
   sections:
     summary:
       - >
-        Software Engineer with solid experience building and evolving
-        production-ready web applications using TypeScript, React, and Node.js.
-        Proven ability to work on large-scale frontend migrations, backend APIs,
-        and cross-team collaboration with product and design. Comfortable taking
-        technical ownership, mentoring junior developers, and contributing to
-        architectural and UI decisions in agile environments.
+        Software Engineer with experience across frontend, backend, and internal
+        tooling. Worked with TypeScript, React, Node.js, MySQL, Temporal, and
+        Retool to build web applications, automate business workflows, and
+        optimize critical account lifecycle processes. Comfortable owning
+        technical decisions, working across the stack, and collaborating with
+        product, design, and operations teams.
 
     experience:
       - company: Drata (by ArkusNexus)
-        position: Associate Software Engineer
+        position: Platform Engineer
         start_date: 2025-06
-        end_date: present
+        end_date: 2026-05
         location: Tijuana, Mexico
         highlights:
-          - Contributed to the migration of the main product from a legacy React codebase to a new rebranded architecture using React and MobX
-          - Migrated and refactored multiple application pages following best practices, cleaner code standards, and an updated UI system
-          - Identified and fixed bugs within the shared component system during the migration process
-          - Collaborated closely with Product and Design teams to clarify requirements and discuss unclear or evolving design decisions
-          - Worked within an agile, cross-functional team focused on improving maintainability, scalability, and user experience
+          - Started as Associate Software Engineer contributing to the migration of the main product from a legacy React codebase to a new architecture using React and MobX
+          - Promoted to Platform Engineer, shifting focus to internal tooling, workflow automation, and account lifecycle processes
+          - Optimized the production account deletion process from approximately 3 minutes to 17 seconds on average by improving queries, splitting transactions, and parallelizing work
+          - Designed and implemented a daily Temporal automation in TypeScript to standardize automatic account deletion based on business criteria
+          - Improved deletion flow reliability by preventing concurrent executions, processing accounts serially, and reporting failures through an existing Slack integration
+          - Built internal tools with Retool, JavaScript, and SQL for the Customer Success team, automating recurring manual processes
+          - Collaborated with Product and Design teams to clarify requirements and deliver solutions aligned with business needs
 
       - company: ArkusNexus
         position: Associate Software Engineer
         start_date: 2025-02
-        end_date: present
+        end_date: 2025-06
         location: Tijuana, Mexico
         highlights:
           - Developed a full-stack internal gamification platform using Next.js, Fastify, TypeScript, and PostgreSQL
-          - Implemented REST APIs and data models using TypeORM and PostgreSQL
-          - Provided technical guidance and ongoing support to junior developers on the team
-          - Participated in defining project structure, development standards, and best practices
-          - Successfully delivered the project, which confirmed a full-time position and led to participation in the Drata project
+          - Implemented REST APIs and data models using TypeORM
+          - Delivered the project successfully, earning a full-time position and placement on the Drata client project
 
       - company: Sushimi
         position: IT Systems Associate
@@ -70,6 +70,8 @@ cv:
       - label: Backend
         details: Node.js, NestJS, Fastify
       - label: Databases & ORM
-        details: PostgreSQL, MySQL, MongoDB, TypeORM
+        details: MySQL, PostgreSQL, MongoDB, TypeORM
+      - label: Automation & Internal Tools
+        details: Temporal, Retool, Slack integrations, workflow automation
       - label: Tools & Practices
-        details: Git, Docker, Linux, REST APIs, Agile
+        details: Git, Docker, Linux, REST APIs, Clean Architecture, Agile
