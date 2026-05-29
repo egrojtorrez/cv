@@ -1,0 +1,76 @@
+cv:
+  name: Jorge Omar Torres Sosa
+  location: Tijuana, Baja California, Mexico
+  email: egrojtorrez@gmail.com
+  website: https://github.com/egrojtorrez
+  social_networks:
+    - network: LinkedIn
+      username: egrojtorrez
+
+  sections:
+    summary:
+      - >
+        Frontend-focused Software Engineer experienced in building web
+        applications with TypeScript, React, Next.js, and MobX. Contributed to
+        frontend migrations, UI refactors, API integrations, and close
+        collaboration with product and design teams. Also brings backend
+        experience with Node.js, databases, and internal tooling, enabling strong
+        full-stack context.
+
+    experience:
+      - company: Drata (by ArkusNexus)
+        position: Platform Engineer
+        start_date: 2025-06
+        end_date: 2026-05
+        location: Tijuana, Mexico
+        highlights:
+          - Contributed to the migration of the main product from a legacy React codebase to a new architecture using React and MobX
+          - Refactored existing interfaces and flows to improve maintainability, consistency, and alignment with the product’s new architecture
+          - Collaborated with Product and Design teams to clarify requirements, resolve UI decisions, and deliver solutions aligned with business needs
+          - Optimized the production account deletion process from approximately 3 minutes to 17 seconds on average by improving queries, splitting transactions, and parallelizing work
+          - Built internal tools with Retool, JavaScript, and SQL for the Customer Success team, automating recurring manual processes
+          - Promoted to Platform Engineer, expanding scope into workflow automation, internal tooling, and account lifecycle processes
+
+      - company: ArkusNexus
+        position: Associate Software Engineer
+        start_date: 2025-02
+        end_date: 2025-06
+        location: Tijuana, Mexico
+        highlights:
+          - Developed a full-stack internal gamification platform using Next.js, Fastify, TypeScript, and PostgreSQL
+          - Implemented REST APIs and data models using TypeORM
+          - Delivered the project successfully, earning a full-time position and placement on the Drata client project
+
+      - company: Sushimi
+        position: IT Systems Associate
+        start_date: 2022-07
+        end_date: 2023-07
+        location: Baja California, Mexico
+        highlights:
+          - Developed and maintained internal web applications used across multiple restaurant branches
+          - Designed and implemented features and reports by integrating SQL Server databases from the Soft Restaurant POS system
+          - Built backend services using Node.js and SQL Server to support internal operations
+          - Developed both internal tools and customer-facing applications using EJS and React
+          - Maintained and improved the company’s online store and internal systems
+
+    education:
+      - institution: Autonomous University of Baja California (UABC)
+        area: Software Engineering
+        degree: Bachelor's Degree
+        start_date: 2019-08
+        end_date: 2024-12
+        location: Baja California, Mexico
+
+    skills:
+      - label: Languages
+        details: TypeScript, JavaScript, SQL, Python
+      - label: Frontend
+        details: React, Next.js, MobX, HTML, CSS
+      - label: Backend
+        details: Node.js, NestJS, Fastify
+      - label: Databases & ORM
+        details: MySQL, PostgreSQL, MongoDB, TypeORM
+      - label: Automation & Internal Tools
+        details: Temporal, Retool, Slack integrations, workflow automation
+      - label: Tools & Practices
+        details: Git, Docker, Linux, REST APIs, Clean Architecture, Agile

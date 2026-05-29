@@ -1,0 +1,78 @@
+cv:
+  name: Jorge Omar Torres Sosa
+  location: Tijuana, Baja California, México
+  email: egrojtorrez@gmail.com
+  website: https://github.com/egrojtorrez
+  social_networks:
+    - network: LinkedIn
+      username: egrojtorrez
+
+  sections:
+    summary:
+      - >
+        Ingeniero de Software Full-stack con enfoque en backend, APIs y
+        automatización de procesos. Ha trabajado con TypeScript, Node.js,
+        NestJS, MySQL, PostgreSQL, Temporal y React, desarrollando endpoints,
+        herramientas internas y optimizaciones para flujos críticos de negocio.
+        Cómodo diseñando soluciones de extremo a extremo, trabajando con bases
+        de datos y colaborando con equipos de producto, diseño y operaciones.
+
+    experience:
+      - company: Drata (by ArkusNexus)
+        position: Platform Engineer
+        start_date: 2025-06
+        end_date: 2026-05
+        location: Tijuana, México
+        highlights:
+          - Inició como Associate Software Engineer contribuyendo a la migración del producto principal desde un código legado en React hacia una nueva arquitectura utilizando React y MobX
+          - Promovido a Platform Engineer, con enfoque en herramientas internas, automatización de workflows y procesos del ciclo de vida de cuentas
+          - Desarrolló endpoints backend con NestJS y TypeScript para soportar funcionalidades internas y flujos del producto
+          - Optimizó el proceso de borrado de cuentas en producción, reduciendo su duración promedio de aproximadamente 3 minutos a 17 segundos mediante optimización de queries, división de transacciones y paralelización
+          - Diseñó e implementó una automatización diaria con Temporal y TypeScript para estandarizar el borrado automático de cuentas según criterios de negocio
+          - Mejoró la confiabilidad del flujo de borrado evitando ejecuciones simultáneas, procesando cuentas en serie y reportando fallos mediante una integración existente con Slack
+          - Desarrolló herramientas internas con Retool, JavaScript y SQL para el equipo de Customer Success, automatizando procesos manuales que realizaban de forma recurrente
+          - Colaboró con los equipos de Producto y Diseño para clarificar requerimientos y entregar soluciones alineadas con las necesidades del negocio
+
+      - company: ArkusNexus
+        position: Associate Software Engineer
+        start_date: 2025-02
+        end_date: 2025-06
+        location: Tijuana, México
+        highlights:
+          - Desarrollo de una plataforma interna de gamificación full-stack utilizando Next.js, Fastify, TypeScript y PostgreSQL
+          - Implementación de APIs REST y modelos de datos con TypeORM
+          - Entrega exitosa del proyecto, lo que confirmó una posición de tiempo completo y la asignación al proyecto de Drata
+
+      - company: Sushimi
+        position: IT Systems Associate
+        start_date: 2022-07
+        end_date: 2023-07
+        location: Baja California, México
+        highlights:
+          - Desarrollo y mantenimiento de aplicaciones web internas utilizadas en múltiples sucursales del restaurante
+          - Diseño e implementación de funcionalidades y reportes integrando bases de datos SQL Server del sistema POS Soft Restaurant
+          - Desarrollo de servicios backend utilizando Node.js y SQL Server para soportar operaciones internas
+          - Desarrollo de herramientas internas y aplicaciones orientadas al cliente utilizando EJS y React
+          - Mantenimiento y mejora de la tienda en línea y de los sistemas internos de la empresa
+
+    education:
+      - institution: Universidad Autónoma de Baja California (UABC)
+        area: Ingeniería de Software
+        degree: Licenciatura
+        start_date: 2019-08
+        end_date: 2024-12
+        location: Baja California, México
+
+    skills:
+      - label: Lenguajes
+        details: TypeScript, JavaScript, SQL, Python
+      - label: Frontend
+        details: React, Next.js, HTML, CSS
+      - label: Backend
+        details: Node.js, NestJS, Fastify, APIs REST
+      - label: Bases de Datos y ORM
+        details: MySQL, PostgreSQL, MongoDB, TypeORM
+      - label: Automatización y Herramientas Internas
+        details: Temporal, Retool, integraciones con Slack, workflow automation
+      - label: Herramientas y Prácticas
+        details: Git, Docker, Linux, APIs REST, Clean Architecture, Metodologías Ágiles
